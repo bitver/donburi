@@ -17,7 +17,7 @@ type IComponentType = component.IComponentType
 // The function is used to create a new component of the type.
 // It receives a function that returns a pointer to a new component.
 // The first argument is a default value of the component.
-func NewComponentType[T any](opts ...interface{}) *ComponentType[T] {
+func NewComponentType[T any](opts ...T) *ComponentType[T] {
 
 	if len(opts) == 0 {
 		var t T

@@ -1,12 +1,12 @@
 package factory
 
 import (
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/archetypes"
+	"github.com/bitver/donburi/examples/platformer/components"
+	"github.com/bitver/donburi/examples/platformer/config"
 	"github.com/solarlune/resolv"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/archetypes"
-	"github.com/yohamta/donburi/examples/platformer/components"
-	"github.com/yohamta/donburi/examples/platformer/config"
 )
 
 func CreateSpace(ecs *ecs.ECS) *donburi.Entry {

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"image/color"
 
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/fonts"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/text"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/fonts"
 	"golang.org/x/image/font"
 )
 

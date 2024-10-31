@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/yohamta/donburi/component"
-	"github.com/yohamta/donburi/internal/storage"
+	"github.com/bitver/donburi/component"
+	"github.com/bitver/donburi/internal/storage"
 )
 
 // Entry is a struct that contains an entity and a location in an archetype.

@@ -1,11 +1,11 @@
 package archetypes
 
 import (
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/components"
-	"github.com/yohamta/donburi/examples/platformer/layers"
-	"github.com/yohamta/donburi/examples/platformer/tags"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/components"
+	"github.com/bitver/donburi/examples/platformer/layers"
+	"github.com/bitver/donburi/examples/platformer/tags"
 )
 
 var (

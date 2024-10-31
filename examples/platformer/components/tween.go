@@ -1,8 +1,8 @@
 package components
 
 import (
+	"github.com/bitver/donburi"
 	"github.com/tanema/gween"
-	"github.com/yohamta/donburi"
 )
 
 var Tween = donburi.NewComponentType[gween.Sequence]()

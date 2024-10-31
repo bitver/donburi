@@ -3,9 +3,9 @@ package transform_test
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
-	dmath "github.com/yohamta/donburi/features/math"
-	"github.com/yohamta/donburi/features/transform"
+	"github.com/bitver/donburi"
+	dmath "github.com/bitver/donburi/features/math"
+	"github.com/bitver/donburi/features/transform"
 )
 
 func TestTransform(t *testing.T) {

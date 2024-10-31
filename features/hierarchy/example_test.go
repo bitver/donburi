@@ -3,8 +3,8 @@ package hierarchy
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
-	ecslib "github.com/yohamta/donburi/ecs"
+	"github.com/bitver/donburi"
+	ecslib "github.com/bitver/donburi/ecs"
 )
 
 func TestHierarchy(t *testing.T) {

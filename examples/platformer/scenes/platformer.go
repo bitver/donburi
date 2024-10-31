@@ -4,15 +4,15 @@ import (
 	"image/color"
 	"sync"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/config"
+	"github.com/bitver/donburi/examples/platformer/factory"
+	"github.com/bitver/donburi/examples/platformer/layers"
+	dresolv "github.com/bitver/donburi/examples/platformer/resolv"
+	"github.com/bitver/donburi/examples/platformer/systems"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/solarlune/resolv"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/config"
-	"github.com/yohamta/donburi/examples/platformer/factory"
-	"github.com/yohamta/donburi/examples/platformer/layers"
-	dresolv "github.com/yohamta/donburi/examples/platformer/resolv"
-	"github.com/yohamta/donburi/examples/platformer/systems"
 )
 
 type PlatformerScene struct {

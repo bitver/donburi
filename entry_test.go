@@ -3,7 +3,7 @@ package donburi_test
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
+	"github.com/bitver/donburi"
 )
 
 func TestSetValue(t *testing.T) {

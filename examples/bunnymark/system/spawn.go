@@ -3,11 +3,11 @@ package system
 import (
 	"math"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/component"
+	"github.com/bitver/donburi/examples/bunnymark/helper"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/component"
-	"github.com/yohamta/donburi/examples/bunnymark/helper"
 )
 
 type Spawn struct {

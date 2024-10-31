@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/yohamta/donburi/component"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi/component"
+	"github.com/bitver/donburi/filter"
 )
 
 // IComponentType is an interface for component types.
@@ -18,7 +18,7 @@ type IComponentType = component.IComponentType
 // It receives a function that returns a pointer to a new component.
 // The first argument is a default value of the component.
 func NewComponentType[T any](opts ...interface{}) *ComponentType[T] {
-	
+
 	if len(opts) == 0 {
 		var t T
 		return newComponentType(t, nil)

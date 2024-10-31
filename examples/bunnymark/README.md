@@ -25,7 +25,7 @@ A popular benchmark made on Donburi.
 To run the example from sources do the following command:
 
 ```
-go run github.com/yohamta/donburi/examples/bunnymark@master
+go run github.com/bitver/donburi/examples/bunnymark@master
 ```
 <sub>Please remember that @master only works since Go 17.</sub>
 

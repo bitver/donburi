@@ -3,10 +3,10 @@ package systems
 import (
 	"image/color"
 
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/components"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/components"
 )
 
 func DrawDebug(ecs *ecs.ECS, screen *ebiten.Image) {

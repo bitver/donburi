@@ -1,6 +1,6 @@
 package donburi
 
-import "github.com/yohamta/donburi/internal/storage"
+import "github.com/bitver/donburi/internal/storage"
 
 // Entity is identifier of an entity.
 // Entity is just a wrapper of uint64.

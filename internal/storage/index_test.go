@@ -3,8 +3,8 @@ package storage
 import (
 	"testing"
 
-	"github.com/yohamta/donburi/component"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi/component"
+	"github.com/bitver/donburi/filter"
 )
 
 func TestIndex(t *testing.T) {

@@ -3,8 +3,8 @@ package system
 import (
 	"image/color"
 
+	"github.com/bitver/donburi/ecs"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/yohamta/donburi/ecs"
 )
 
 func DrawBackground(ecs *ecs.ECS, screen *ebiten.Image) {

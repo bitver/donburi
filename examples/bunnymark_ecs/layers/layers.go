@@ -1,6 +1,6 @@
 package layers
 
-import "github.com/yohamta/donburi/ecs"
+import "github.com/bitver/donburi/ecs"
 
 const (
 	LayerBackground ecs.LayerID = iota

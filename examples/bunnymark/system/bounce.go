@@ -3,10 +3,10 @@ package system
 import (
 	"image"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/component"
-	"github.com/yohamta/donburi/examples/bunnymark/helper"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/component"
+	"github.com/bitver/donburi/examples/bunnymark/helper"
+	"github.com/bitver/donburi/filter"
 )
 
 type Bounce struct {

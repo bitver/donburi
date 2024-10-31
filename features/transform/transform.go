@@ -4,9 +4,9 @@ package transform
 import (
 	"math"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/features/hierarchy"
-	dmath "github.com/yohamta/donburi/features/math"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/features/hierarchy"
+	dmath "github.com/bitver/donburi/features/math"
 )
 
 // TransformData is a data of transform component.

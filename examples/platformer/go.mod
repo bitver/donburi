@@ -1,4 +1,4 @@
-module github.com/yohamta/donburi/examples/platformer
+module github.com/bitver/donburi/examples/platformer
 
 go 1.23
 
@@ -9,7 +9,7 @@ require (
 	github.com/hajimehoshi/ebiten/v2 v2.6.6
 	github.com/solarlune/resolv v0.6.0
 	github.com/tanema/gween v0.0.0-20221212145351-621cc8a459d1
-	github.com/yohamta/donburi v1.3.7
+	github.com/bitver/donburi v1.3.7
 	golang.org/x/image v0.12.0
 )
 
@@ -23,4 +23,4 @@ require (
 	golang.org/x/sys v0.12.0 // indirect
 )
 
-replace github.com/yohamta/donburi => ../../
+replace github.com/bitver/donburi => ../../

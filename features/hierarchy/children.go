@@ -1,7 +1,7 @@
 package hierarchy
 
 import (
-	"github.com/yohamta/donburi"
+	"github.com/bitver/donburi"
 )
 
 type childrenData struct {

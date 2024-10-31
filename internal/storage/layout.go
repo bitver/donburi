@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/yohamta/donburi/component"
+	"github.com/bitver/donburi/component"
 )
 
 // Layout represents a layout of components.

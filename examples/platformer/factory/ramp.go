@@ -1,11 +1,11 @@
 package factory
 
 import (
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/archetypes"
+	dresolv "github.com/bitver/donburi/examples/platformer/resolv"
 	"github.com/solarlune/resolv"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/archetypes"
-	dresolv "github.com/yohamta/donburi/examples/platformer/resolv"
 )
 
 func CreateRamp(ecs *ecs.ECS, obj *resolv.Object) *donburi.Entry {

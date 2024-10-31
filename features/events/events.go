@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/filter"
 )
 
 // Debug enables debug logging.

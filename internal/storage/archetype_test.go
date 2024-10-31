@@ -3,7 +3,7 @@ package storage
 import (
 	"testing"
 
-	"github.com/yohamta/donburi/component"
+	"github.com/bitver/donburi/component"
 )
 
 type (

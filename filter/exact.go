@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"github.com/yohamta/donburi/component"
+	"github.com/bitver/donburi/component"
 )
 
 type exact struct {

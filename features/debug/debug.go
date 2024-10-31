@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/internal/storage"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/internal/storage"
 )
 
 type EntityCounts struct {

@@ -1,10 +1,10 @@
 package systems
 
 import (
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/components"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/components"
 )
 
 func UpdateSettings(ecs *ecs.ECS) {

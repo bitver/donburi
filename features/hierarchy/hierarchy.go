@@ -1,9 +1,9 @@
 package hierarchy
 
 import (
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/filter"
 )
 
 type hierarchySystem struct {

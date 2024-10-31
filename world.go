@@ -5,9 +5,9 @@ package donburi
 
 import (
 	"fmt"
-	"github.com/yohamta/donburi/component"
-	"github.com/yohamta/donburi/filter"
-	"github.com/yohamta/donburi/internal/storage"
+	"github.com/bitver/donburi/component"
+	"github.com/bitver/donburi/filter"
+	"github.com/bitver/donburi/internal/storage"
 )
 
 // WorldId is a unique identifier for a world.

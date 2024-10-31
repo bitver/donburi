@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/filter"
 )
 
 // Query represents a query for entities.

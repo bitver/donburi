@@ -3,9 +3,9 @@ package donburi_test
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/filter"
-	"github.com/yohamta/donburi/internal/storage"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/filter"
+	"github.com/bitver/donburi/internal/storage"
 )
 
 type vec2f struct {

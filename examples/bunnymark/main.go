@@ -7,12 +7,12 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/assets"
+	"github.com/bitver/donburi/examples/bunnymark/component"
+	"github.com/bitver/donburi/examples/bunnymark/helper"
+	"github.com/bitver/donburi/examples/bunnymark/system"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/assets"
-	"github.com/yohamta/donburi/examples/bunnymark/component"
-	"github.com/yohamta/donburi/examples/bunnymark/helper"
-	"github.com/yohamta/donburi/examples/bunnymark/system"
 
 	_ "net/http/pprof"
 )

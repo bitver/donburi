@@ -1,6 +1,6 @@
 package filter
 
-import "github.com/yohamta/donburi/component"
+import "github.com/bitver/donburi/component"
 
 type contains struct {
 	components []component.IComponentType

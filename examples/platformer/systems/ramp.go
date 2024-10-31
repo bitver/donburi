@@ -3,12 +3,12 @@ package systems
 import (
 	"image/color"
 
+	"github.com/bitver/donburi/ecs"
+	dresolv "github.com/bitver/donburi/examples/platformer/resolv"
+	"github.com/bitver/donburi/examples/platformer/tags"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/solarlune/resolv"
-	"github.com/yohamta/donburi/ecs"
-	dresolv "github.com/yohamta/donburi/examples/platformer/resolv"
-	"github.com/yohamta/donburi/examples/platformer/tags"
 )
 
 func DrawRamp(ecs *ecs.ECS, screen *ebiten.Image) {

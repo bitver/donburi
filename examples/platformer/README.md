@@ -10,7 +10,7 @@ Arrow key to move, X to jump.
 
 ## Architecture
 
-This example code is based on the ECS architecture using [donburi](https://github.com/yohamta/donburi).
+This example code is based on the ECS architecture using [donburi](https://github.com/bitver/donburi).
 
 The ECS structure is as follows:
 

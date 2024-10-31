@@ -1,8 +1,8 @@
 package ecs
 
 import (
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/filter"
 )
 
 // LayerID is used to specify a layer.

@@ -3,8 +3,8 @@ package events_test
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/features/events"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/features/events"
 )
 
 type EnemyKilled struct {

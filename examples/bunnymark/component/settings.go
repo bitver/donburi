@@ -3,9 +3,9 @@ package component
 import (
 	"time"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/helper"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/helper"
 )
 
 type SettingsData struct {

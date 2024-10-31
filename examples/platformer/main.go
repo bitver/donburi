@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/bitver/donburi/examples/platformer/config"
+	"github.com/bitver/donburi/examples/platformer/fonts"
+	"github.com/bitver/donburi/examples/platformer/scenes"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/yohamta/donburi/examples/platformer/config"
-	"github.com/yohamta/donburi/examples/platformer/fonts"
-	"github.com/yohamta/donburi/examples/platformer/scenes"
 )
 
 //go:embed assets/fonts/excel.ttf

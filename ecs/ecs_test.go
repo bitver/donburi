@@ -3,8 +3,8 @@ package ecs
 import (
 	"testing"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/filter"
 )
 
 func TestECS(t *testing.T) {

@@ -1,6 +1,6 @@
 <img align="right" width="150" src="https://user-images.githubusercontent.com/1475839/150521755-977f545b-4436-4059-87ac-1129541ad236.png" alt="donburi" title="donburi" /> <h1>Donburi</h1>
 
-<img src="https://github.com/yohamta/donburi/actions/workflows/test.yaml/badge.svg" /> [![Go Reference](https://pkg.go.dev/badge/github.com/yohamta/donburi.svg)](https://pkg.go.dev/github.com/yohamta/donburi)
+<img src="https://github.com/bitver/donburi/actions/workflows/test.yaml/badge.svg" /> [![Go Reference](https://pkg.go.dev/badge/github.com/bitver/donburi.svg)](https://pkg.go.dev/github.com/bitver/donburi)
 
 Donburi is an Entity Component System library for Go / Ebitengine inspired by [legion](https://github.com/amethyst/legion).
 
@@ -42,16 +42,16 @@ It aims to be a feature rich and high-performance [ECS](https://en.wikipedia.org
 
 ## Examples
 
-To check all examples, visit [this](https://github.com/yohamta/donburi/tree/main/examples) page.
+To check all examples, visit [this](https://github.com/bitver/donburi/tree/main/examples) page.
 
 The bunnymark example was adapted from [mizu](https://github.com/sedyh/mizu)'s code, which is made by [sedyh](https://github.com/sedyh). 
 
-<a href="https://github.com/yohamta/donburi/tree/main/examples/bunnymark"> <img width="200" src="https://user-images.githubusercontent.com/1475839/150521292-9d3ec2c9-b96f-4cc1-a778-57dabfbd46b6.gif"></a> <a href="https://github.com/yohamta/donburi/tree/main/examples/platformer"> <img width="200" src="./examples/platformer/assets/images/example.gif"></a> 
+<a href="https://github.com/bitver/donburi/tree/main/examples/bunnymark"> <img width="200" src="https://user-images.githubusercontent.com/1475839/150521292-9d3ec2c9-b96f-4cc1-a778-57dabfbd46b6.gif"></a> <a href="https://github.com/bitver/donburi/tree/main/examples/platformer"> <img width="200" src="./examples/platformer/assets/images/example.gif"></a> 
 
 ## Installation
 
 ```
-go get github.com/yohamta/donburi
+go get github.com/bitver/donburi
 ```
 
 ## Getting Started
@@ -59,7 +59,7 @@ go get github.com/yohamta/donburi
 ### Worlds
 
 ```go
-import "github.com/yohamta/donburi"
+import "github.com/bitver/donburi"
 
 world := donburi.NewWorld()
 ```
@@ -279,16 +279,16 @@ for entry := range EnemyTag.Iter(world) {
 
 **⚠ this feature is currently experimental, the API can be changed in the future.**
 
-The [ECS package](https://github.com/yohamta/donburi/tree/main/ecs) provides so-called **System** feature in ECS which can be used together with a `World` instance.
+The [ECS package](https://github.com/bitver/donburi/tree/main/ecs) provides so-called **System** feature in ECS which can be used together with a `World` instance.
 
-See the [GoDoc](https://pkg.go.dev/github.com/yohamta/donburi/ecs) and [Example](https://github.com/yohamta/donburi/tree/main/examples/bunnymark_ecs).
+See the [GoDoc](https://pkg.go.dev/github.com/bitver/donburi/ecs) and [Example](https://github.com/bitver/donburi/tree/main/examples/bunnymark_ecs).
 
 How to create an ECS instance:
 
 ```go
 import (
-  "github.com/yohamta/donburi"
-  ecslib "github.com/yohamta/donburi/ecs"
+  "github.com/bitver/donburi"
+  ecslib "github.com/bitver/donburi/ecs"
 )
 
 world := donburi.NewWorld()
@@ -357,7 +357,7 @@ queryForLayer0 := ecslib.NewQuery(layer0, filter.Contains(someComponent))
 
 ### Debug
 
-The [debug package](https://pkg.go.dev/github.com/yohamta/donburi/features/debug) provides some debug utilities for `World`.
+The [debug package](https://pkg.go.dev/github.com/bitver/donburi/features/debug) provides some debug utilities for `World`.
 
 For example:
 ```go
@@ -373,17 +373,17 @@ debug.PrintEntityCounts(world)
 
 ## Features
 
-Under the [features](https://github.com/yohamta/donburi/tree/main/features) directory, we develop common functions for game dev. Any kind of [Issues](https://github.com/yohamta/donburi/issues) or [PRs](https://github.com/yohamta/donburi/pulls) will be very appreciated.
+Under the [features](https://github.com/bitver/donburi/tree/main/features) directory, we develop common functions for game dev. Any kind of [Issues](https://github.com/bitver/donburi/issues) or [PRs](https://github.com/bitver/donburi/pulls) will be very appreciated.
 
 ### Math
 
-The [math package](https://github.com/yohamta/donburi/tree/main/features/math) provides the basic types (Vec2 etc) and helpers.
+The [math package](https://github.com/bitver/donburi/tree/main/features/math) provides the basic types (Vec2 etc) and helpers.
 
-See the [GoDoc](https://pkg.go.dev/github.com/yohamta/donburi/features/math) for more details.
+See the [GoDoc](https://pkg.go.dev/github.com/bitver/donburi/features/math) for more details.
 
 ### Transform
 
-The [transform package](https://github.com/yohamta/donburi/tree/main/features/transform) provides the `Tranform` Component and helpers.
+The [transform package](https://github.com/bitver/donburi/tree/main/features/transform) provides the `Tranform` Component and helpers.
 
 It allows us to handle `position`, `rotation`, `scale` data relative to the parent.
 
@@ -433,14 +433,14 @@ transform.RemoveRecursive(parent)
 
 ### Events
 
-The [events package](https://pkg.go.dev/github.com/yohamta/donburi/features/events) allows us to send arbitrary data between systems in a Type-safe manner.
+The [events package](https://pkg.go.dev/github.com/bitver/donburi/features/events) allows us to send arbitrary data between systems in a Type-safe manner.
 
 This package was adapted from [ariplane](https://github.com/m110/airplanes)'s code, which is created by [m110](https://github.com/m110). 
 
 For example:
 ```go
 
-import "github.com/yohamta/donburi/features/events"
+import "github.com/bitver/donburi/features/events"
 
 // Define any data
 type EnemyKilled struct {
@@ -497,7 +497,7 @@ Feel free to contribute in any way you want. Share ideas, questions, submit issu
 
 ## Contributors
 
-<a href="https://github.com/yohamta/donburi/graphs/contributors">
+<a href="https://github.com/bitver/donburi/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yohamta/donburi" />
 </a>
 

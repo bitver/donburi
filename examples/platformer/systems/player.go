@@ -4,14 +4,14 @@ import (
 	"image/color"
 	"math"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/components"
+	dresolv "github.com/bitver/donburi/examples/platformer/resolv"
+	"github.com/bitver/donburi/examples/platformer/tags"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/components"
-	dresolv "github.com/yohamta/donburi/examples/platformer/resolv"
-	"github.com/yohamta/donburi/examples/platformer/tags"
 )
 
 func UpdatePlayer(ecs *ecs.ECS) {

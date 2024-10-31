@@ -3,10 +3,10 @@ package system
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/component"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/component"
+	"github.com/bitver/donburi/filter"
 )
 
 type render struct {

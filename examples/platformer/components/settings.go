@@ -1,6 +1,6 @@
 package components
 
-import "github.com/yohamta/donburi"
+import "github.com/bitver/donburi"
 
 type SettingsData struct {
 	Debug        bool

@@ -6,8 +6,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/yohamta/donburi/filter"
-	"github.com/yohamta/donburi/internal/storage"
+	"github.com/bitver/donburi/filter"
+	"github.com/bitver/donburi/internal/storage"
 )
 
 type cache struct {

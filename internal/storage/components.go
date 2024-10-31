@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/yohamta/donburi/component"
+import "github.com/bitver/donburi/component"
 
 // ComponentIndex represents the index of component in an archetype.
 type ComponentIndex int

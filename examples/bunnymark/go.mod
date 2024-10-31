@@ -1,15 +1,15 @@
-module github.com/yohamta/donburi/examples/bunnymark
+module github.com/bitver/donburi/examples/bunnymark
 
 go 1.23
 
 toolchain go1.23.0
 
-replace github.com/yohamta/donburi => ../../
+replace github.com/bitver/donburi => ../../
 
 require (
 	github.com/hajimehoshi/ebiten/v2 v2.6.6
 	github.com/jaypipes/ghw v0.10.0
-	github.com/yohamta/donburi v0.0.0-00010101000000-000000000000
+	github.com/bitver/donburi v0.0.0-00010101000000-000000000000
 	golang.org/x/image v0.12.0
 )
 

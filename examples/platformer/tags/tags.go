@@ -1,6 +1,6 @@
 package tags
 
-import "github.com/yohamta/donburi"
+import "github.com/bitver/donburi"
 
 var (
 	Player           = donburi.NewTag().SetName("Player")

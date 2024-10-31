@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/yohamta/donburi/component"
+	"github.com/bitver/donburi/component"
 )
 
 var (

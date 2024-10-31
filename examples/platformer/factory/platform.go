@@ -1,14 +1,14 @@
 package factory
 
 import (
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/platformer/archetypes"
+	"github.com/bitver/donburi/examples/platformer/components"
+	dresolv "github.com/bitver/donburi/examples/platformer/resolv"
 	"github.com/solarlune/resolv"
 	"github.com/tanema/gween"
 	"github.com/tanema/gween/ease"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/platformer/archetypes"
-	"github.com/yohamta/donburi/examples/platformer/components"
-	dresolv "github.com/yohamta/donburi/examples/platformer/resolv"
 )
 
 func CreatePlatform(ecs *ecs.ECS, object *resolv.Object) *donburi.Entry {

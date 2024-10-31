@@ -1,9 +1,9 @@
 package resolv
 
 import (
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/platformer/components"
 	"github.com/solarlune/resolv"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/platformer/components"
 )
 
 func Add(space *donburi.Entry, objects ...*donburi.Entry) {

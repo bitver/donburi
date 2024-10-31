@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/ecs"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/assets"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/component"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/helper"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/layers"
+	"github.com/bitver/donburi/examples/bunnymark_ecs/system"
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/ecs"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/assets"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/component"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/helper"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/layers"
-	"github.com/yohamta/donburi/examples/bunnymark_ecs/system"
 
 	_ "net/http/pprof"
 )

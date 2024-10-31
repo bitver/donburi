@@ -3,9 +3,9 @@ package system
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/component"
-	"github.com/yohamta/donburi/filter"
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/component"
+	"github.com/bitver/donburi/filter"
 )
 
 type Render struct {

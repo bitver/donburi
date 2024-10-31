@@ -5,11 +5,11 @@ import (
 	"image"
 	"image/color"
 
+	"github.com/bitver/donburi"
+	"github.com/bitver/donburi/examples/bunnymark/component"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/text"
-	"github.com/yohamta/donburi"
-	"github.com/yohamta/donburi/examples/bunnymark/component"
 	"golang.org/x/image/colornames"
 	"golang.org/x/image/font/basicfont"
 )

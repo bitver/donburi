@@ -1,7 +1,7 @@
 package component
 
 import (
-	"github.com/yohamta/donburi"
+	"github.com/bitver/donburi"
 )
 
 type PositionData struct {

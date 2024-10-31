@@ -1,4 +1,5 @@
-module github.com/bitver/donburi
+module github.com/yohamta/donburi
+replace github.com/yohamta/donburi => github.com/bitver/donburi
 
 go 1.23
 

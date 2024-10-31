@@ -18,11 +18,12 @@ type IComponentType = component.IComponentType
 // It receives a function that returns a pointer to a new component.
 // The first argument is a default value of the component.
 func NewComponentType[T any](opts ...interface{}) *ComponentType[T] {
-	var t T
+	
 	if len(opts) == 0 {
+		var t T
 		return newComponentType(t, nil)
 	}
-	return newComponentType(t, opts[0])
+	return newComponentType(opts[0], opts[0])
 }
 
 // CompnentType represents a type of component. It is used to identify
